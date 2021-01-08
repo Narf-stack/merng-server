@@ -8,14 +8,15 @@
     "start": "node index.js",
     "start-mon": "nodemon index.js",
     "serve": "node index.js"
-
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "D": "^1.0.0",
     "apollo-server": "^2.19.1",
     "bcryptjs": "^2.4.3",
+    "dotenv": "^8.2.0",
     "graphql": "^15.4.0",
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^5.11.9"
